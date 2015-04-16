@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{861cc4dc-9f5b-4d28-b402-48c6134737e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Files">
+      <UniqueIdentifier>{cbbf6ecb-3927-4b16-80e2-1b625d6413ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonHeaders">
+      <UniqueIdentifier>{2d21f497-6400-4020-9a73-399f213745a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommonSource">
+      <UniqueIdentifier>{5c7eb4ec-9bfb-4344-8bd5-e4f19ec812de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{4787dec9-319d-4342-9daf-7bbecdb2ac1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{4f751f3b-812d-4982-b254-92e07ecb6220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="data\font.dds">
+      <Filter>Data Files</Filter>
+    </Image>
+    <Image Include="data\heightmap01.bmp">
+      <Filter>Data Files</Filter>
+    </Image>
+    <Image Include="marble.dds">
+      <Filter>Data Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\fontdata.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="data\skydome.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="data\chassis.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+    <Text Include="data\building.txt">
+      <Filter>Data Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="font.ps">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="font.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="terrain.ps">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="terrain.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Skydome.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="Skydome.ps">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="chassis.ps">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="chassis.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="building.ps">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="building.vs">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Application.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Frustrum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarChassis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CarChassisShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Building.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BuildingShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FontShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Skydome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkydomeShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainShader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Fps.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="States.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>CommonHeaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Frustrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CarChassis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CarChassisShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Building.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BuildingShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FontShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Position.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Skydome.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkydomeShader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Fps.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="States.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="System.cpp">
+      <Filter>CommonSource</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
