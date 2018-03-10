@@ -1,5 +1,5 @@
 
-# The Simulation of Colliding Deformable Objects with Soft-Body Physics (1.0)
+# The Simulation of Colliding Deformable Objects with Soft-Body Physics (v1.1.0)
 
 ## How to access project
 Git Clone HTTPS Url: https://github.com/c33-cooper/The-Simulation-of-Colliding-Deformable-Objects-with-Soft-Body-Physics 
